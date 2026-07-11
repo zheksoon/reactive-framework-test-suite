@@ -20,6 +20,7 @@
     "src/batching.ts",
     "src/untracked.ts",
     "src/errorHandling.ts",
+    "src/exceptionRecovery.ts",
     "src/staleEvaluation.ts",
     "src/memoryGc.ts",
     "src/behaviorDifferences.ts"
