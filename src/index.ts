@@ -15,6 +15,7 @@ import * as cycleDetection from "./cycleDetection.js";
 import * as batching from "./batching.js";
 import * as untracked from "./untracked.js";
 import * as errorHandling from "./errorHandling.js";
+import * as exceptionRecovery from "./exceptionRecovery.js";
 import * as staleEvaluation from "./staleEvaluation.js";
 import * as memoryGc from "./memoryGc.js";
 import * as behaviorDifferences from "./behaviorDifferences.js";
@@ -37,6 +38,7 @@ export const testSuite: TestSection[] = [
   batching,
   untracked,
   errorHandling,
+  exceptionRecovery,
   staleEvaluation,
   memoryGc,
   { ...behaviorDifferences, type: "behavioral" },
